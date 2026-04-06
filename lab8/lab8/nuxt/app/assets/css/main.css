@@ -1,2 +1,5 @@
 @import "tailwindcss";
 
+/* Include all Nuxt app sources so arbitrary utilities are generated consistently on SSR and client. */
+@source "../../**/*.{vue,js,ts}";
+
